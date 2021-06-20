@@ -1,1 +1,1 @@
-alert("Hello");
+(()=>{"use strict";const t=document.getElementById("content"),e=(()=>{const t=document.createElement("nav");t.setAttribute("class","navbar text-center bg-info");const e=document.createElement("button");e.innerHTML="Home",e.setAttribute("id","homeButton"),t.appendChild(e);const n=document.createElement("button");n.innerHTML="Menu",n.setAttribute("id","menuButton"),t.appendChild(n);const o=document.createElement("button");return o.innerHTML="Contact",o.setAttribute("id","contactButton"),t.appendChild(o),t})();t.appendChild(e)})();
