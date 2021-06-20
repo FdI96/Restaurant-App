@@ -10,6 +10,7 @@ const contentHomeComponent = () => {
   imageRestaurant.setAttribute("src", "../assets/images/restaurant.jpg");
 
   const pRestaurant = document.createElement("p");
+  pRestaurant.setAttribute("class", "text-light");
   pRestaurant.innerHTML = "Welcome, this is my restaurant's interior ";
 
   contentHome.appendChild(title);
