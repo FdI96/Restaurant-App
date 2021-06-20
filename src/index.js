@@ -1,6 +1,7 @@
 import navBarComponent from "./navBarElement";
 import contentHomeComponent from "./home.js";
 import contentMenuComponent from "./menu.js";
+import contentContactComponent from "./contact.js";
 
 console.log();
 const content = document.getElementById("content");
@@ -17,9 +18,16 @@ bodyToMenu.addEventListener("click", () => {
   content.appendChild(menu);
 });
 
-const bodyToHome = document.getElementById("menuHome");
+const bodyToHome = document.getElementById("homeButton");
 bodyToHome.addEventListener("click", () => {
   const home = contentHomeComponent();
   content.removeChild(content.childNodes[1]);
   content.appendChild(home);
+});
+
+const bodyToContact = document.getElementById("contactButton");
+bodyToContact.addEventListener("click", () => {
+  const contact = contentContactComponent();
+  content.removeChild(content.childNodes[1]);
+  content.appendChild(contact);
 });
