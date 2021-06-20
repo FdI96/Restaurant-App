@@ -1,7 +1,7 @@
 import navBarComponent from "./navBarElement";
-import contentHomeComponent from "./home.js";
-import contentMenuComponent from "./menu.js";
-import contentContactComponent from "./contact.js";
+import contentHomeComponent from "./home";
+import contentMenuComponent from "./menu";
+import contentContactComponent from "./contact";
 
 console.log();
 const content = document.getElementById("content");
