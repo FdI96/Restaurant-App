@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 You can download the code to your personal computer clonig the repository using the following command
 
 ```
-git clone
+git clone https://github.com/FdI96/Restaurant-App.git
 ```
 
 ### Usage
