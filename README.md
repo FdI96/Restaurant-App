@@ -4,7 +4,7 @@
 
 It's a Restaurant app to show the restaurant, the menu and to contact the owner information dynamically by clicking in the button in the Nav Bar
 
-![screenshot](./assets/screenshot/screenshot.jpg)
+![screenshot](./assets/screenshot/screenshot.png)
 
 - Has the information about the restaurant
 - Shows the menu.
